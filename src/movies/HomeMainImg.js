@@ -1,7 +1,8 @@
 import React from "react";
-import useAsync from "./useAsync";
+
 import styled from "styled-components";
-import axios from "axios";
+
+import useAsync from "../useAsync";
 
 const MainImgContainer = styled.div`
   width: 100%;

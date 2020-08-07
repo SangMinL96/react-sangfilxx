@@ -15,7 +15,7 @@ function Routes() {
           <Route path="/" exact component={Home} />
           <Route path="/Tv" component={Tv} />
           <Route path="/Search" component={Search} />
-          <Route path="/Detail" component={Detail} />
+          <Route path="/Detail/:id" component={Detail} />
         </Switch>
       </Router>
     </>
