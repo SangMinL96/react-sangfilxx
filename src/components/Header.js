@@ -17,7 +17,13 @@ const HeaderContainer = styled.div`
 `;
 const Nav = styled.ul`
   display: flex;
+  div {
+    width: 200px;
+    height: 50px;
+    z-index: 999;
+  }
 `;
+
 const NavList = styled.li`
   width: 80px;
   height: 50px;

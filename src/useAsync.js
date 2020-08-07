@@ -26,7 +26,7 @@ function reducer(state, action) {
   }
 }
 
-function useAsync(URL, deps = [], skip = true) {
+function useAsync(URL, deps = []) {
   const [state, dispatch] = useReducer(reducer, {
     loading: false,
     data: null,
@@ -42,9 +42,6 @@ function useAsync(URL, deps = [], skip = true) {
     }
   }, [URL]);
   useEffect(() => {
-    if (skip) {
-      return;
-    }
     fatchData();
     //eslint-disable-next-line
   }, deps);
