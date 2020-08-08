@@ -1,10 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "../Home/Home";
-import Tv from "../Routes/Tv";
-import Search from "../Routes/Search";
-import Detail from "../Routes/Detail";
+import TV from "../TV/TV";
+import Search from "../Search/Search";
+import MovieDetail from "../Datail/MovieDetail";
 import Header from "./Header";
+import TVDetail from "../Datail/TVDetail";
 
 function Routes() {
   return (
@@ -13,9 +14,10 @@ function Routes() {
         <Header />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/Tv" component={Tv} />
+          <Route path="/TV" component={TV} />
           <Route path="/Search" component={Search} />
-          <Route path="/Detail/:id" component={Detail} />
+          <Route path="/MovieDetail/:id" component={MovieDetail} />
+          <Route path="/TVDetail/:id" component={TVDetail} />
         </Switch>
       </Router>
     </>

@@ -115,7 +115,7 @@ function PopContent() {
         {data &&
           data.results.map((item) => (
             <PopItems
-              to={`Detail/${item.id}`}
+              to={`MovieDetail/${item.id}`}
               style={{ width: 360 }}
               key={item.id}
               bgImg={item.poster_path}

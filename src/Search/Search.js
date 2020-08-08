@@ -111,7 +111,7 @@ function Search() {
         </SearchForm>
         <SearchItems>
           {movies.map((item) => (
-            <SearchItem to={`Detail/${item.id}`} bgImg={item.poster_path}>
+            <SearchItem to={`MovieDetail/${item.id}`} bgImg={item.poster_path}>
               <div>{item.title}</div>
             </SearchItem>
           ))}
