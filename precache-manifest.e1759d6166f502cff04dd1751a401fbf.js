@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d3fc0a4890812a8177f9815af323d017",
+    "revision": "31382216895bed9cdac2575d8fbd6d6d",
     "url": "/react-sangfilxx/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-sangfilxx/static/js/2.d3744bb5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "75f1c49548edda157ef2",
-    "url": "/react-sangfilxx/static/js/main.d2930f20.chunk.js"
+    "revision": "e7538b4bb3dccec614c4",
+    "url": "/react-sangfilxx/static/js/main.e4cd0733.chunk.js"
   },
   {
     "revision": "4f275d33619dd29b1b28",
