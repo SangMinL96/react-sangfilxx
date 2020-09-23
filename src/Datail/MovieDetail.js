@@ -22,8 +22,8 @@ const DetailContainer = styled.div`
   align-items: center;
 `;
 const DetailPoster = styled.div`
-  width: 800px;
-  height: 600px;
+  width: 40%;
+  height: 500px;
   background-image: url(${(props) =>
     `https://image.tmdb.org/t/p/w500${props.bgImg}`});
   background-size: 100% 100%;

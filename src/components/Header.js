@@ -43,8 +43,8 @@ function Header({ location: { pathname } }) {
   return (
     <HeaderContainer>
       <Nav>
-        <NavList hover={pathname === "/"}>
-          <NavLink to="/">Movies</NavLink>
+        <NavList hover={pathname === "/react-sangfilxx"}>
+          <NavLink to="/react-sangfilxx">Movies</NavLink>
         </NavList>
         <NavList hover={pathname === "/Tv"}>
           <NavLink to="/Tv">TV</NavLink>

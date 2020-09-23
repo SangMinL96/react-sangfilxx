@@ -13,7 +13,7 @@ function Routes() {
       <Router>
         <Header />
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route path="/react-sangfilxx" exact component={Home} />
           <Route path="/TV" component={TV} />
           <Route path="/Search" component={Search} />
           <Route path="/MovieDetail/:id" component={MovieDetail} />

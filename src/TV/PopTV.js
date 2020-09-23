@@ -27,6 +27,7 @@ const PopTvGridItem = styled(Link)`
   margin-top: 1em;
   width: 200px;
   height: 200px;
+
   background-size: 100% 100%;
   background-image: url(${(props) =>
     `https://image.tmdb.org/t/p/w500${props.bgImg}`});

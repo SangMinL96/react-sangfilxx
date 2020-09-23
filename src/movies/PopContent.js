@@ -112,15 +112,14 @@ function PopContent() {
     <PopContainer>
       <h3>인기있는 영화</h3>
       <Slider {...sliderSettings}>
-        {data &&
-          data.results.map((item) => (
-            <PopItems
-              to={`MovieDetail/${item.id}`}
-              style={{ width: 360 }}
-              key={item.id}
-              bgImg={item.poster_path}
-            ></PopItems>
-          ))}
+        {data.results.map((item) => (
+          <PopItems
+            to={`MovieDetail/${item.id}`}
+            style={{ width: 360 }}
+            key={item.id}
+            bgImg={item.poster_path}
+          ></PopItems>
+        ))}
       </Slider>
     </PopContainer>
   );
